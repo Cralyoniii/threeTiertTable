@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9169F620561F4700D84A10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9169F520561F4700D84A10 /* AppDelegate.m */; };
+		3B9169F920561F4700D84A10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9169F820561F4700D84A10 /* ViewController.m */; };
+		3B9169FC20561F4700D84A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9169FA20561F4700D84A10 /* Main.storyboard */; };
+		3B9169FE20561F4700D84A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9169FD20561F4700D84A10 /* Assets.xcassets */; };
+		3B916A0120561F4700D84A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9169FF20561F4700D84A10 /* LaunchScreen.storyboard */; };
+		3B916A0420561F4700D84A10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B916A0320561F4700D84A10 /* main.m */; };
+		3B916A0E20561F4700D84A10 /* threeTiertTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B916A0D20561F4700D84A10 /* threeTiertTableTests.m */; };
+		3B916A1920561F4700D84A10 /* threeTiertTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B916A1820561F4700D84A10 /* threeTiertTableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B916A0A20561F4700D84A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9169E920561F4700D84A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9169F020561F4700D84A10;
+			remoteInfo = threeTiertTable;
+		};
+		3B916A1520561F4700D84A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9169E920561F4700D84A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9169F020561F4700D84A10;
+			remoteInfo = threeTiertTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B9169F120561F4700D84A10 /* threeTiertTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threeTiertTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9169F420561F4700D84A10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B9169F520561F4700D84A10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B9169F720561F4700D84A10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B9169F820561F4700D84A10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B9169FB20561F4700D84A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B9169FD20561F4700D84A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B916A0020561F4700D84A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B916A0220561F4700D84A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B916A0320561F4700D84A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B916A0920561F4700D84A10 /* threeTiertTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threeTiertTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B916A0D20561F4700D84A10 /* threeTiertTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = threeTiertTableTests.m; sourceTree = "<group>"; };
+		3B916A0F20561F4700D84A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B916A1420561F4700D84A10 /* threeTiertTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threeTiertTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B916A1820561F4700D84A10 /* threeTiertTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = threeTiertTableUITests.m; sourceTree = "<group>"; };
+		3B916A1A20561F4700D84A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B9169EE20561F4700D84A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B916A0620561F4700D84A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B916A1120561F4700D84A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9169E820561F4700D84A10 = {
+			isa = PBXGroup;
+			children = (
+				3B9169F320561F4700D84A10 /* threeTiertTable */,
+				3B916A0C20561F4700D84A10 /* threeTiertTableTests */,
+				3B916A1720561F4700D84A10 /* threeTiertTableUITests */,
+				3B9169F220561F4700D84A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B9169F220561F4700D84A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9169F120561F4700D84A10 /* threeTiertTable.app */,
+				3B916A0920561F4700D84A10 /* threeTiertTableTests.xctest */,
+				3B916A1420561F4700D84A10 /* threeTiertTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B9169F320561F4700D84A10 /* threeTiertTable */ = {
+			isa = PBXGroup;
+			children = (
+				3B9169F420561F4700D84A10 /* AppDelegate.h */,
+				3B9169F520561F4700D84A10 /* AppDelegate.m */,
+				3B9169F720561F4700D84A10 /* ViewController.h */,
+				3B9169F820561F4700D84A10 /* ViewController.m */,
+				3B9169FA20561F4700D84A10 /* Main.storyboard */,
+				3B9169FD20561F4700D84A10 /* Assets.xcassets */,
+				3B9169FF20561F4700D84A10 /* LaunchScreen.storyboard */,
+				3B916A0220561F4700D84A10 /* Info.plist */,
+				3B916A0320561F4700D84A10 /* main.m */,
+			);
+			path = threeTiertTable;
+			sourceTree = "<group>";
+		};
+		3B916A0C20561F4700D84A10 /* threeTiertTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B916A0D20561F4700D84A10 /* threeTiertTableTests.m */,
+				3B916A0F20561F4700D84A10 /* Info.plist */,
+			);
+			path = threeTiertTableTests;
+			sourceTree = "<group>";
+		};
+		3B916A1720561F4700D84A10 /* threeTiertTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B916A1820561F4700D84A10 /* threeTiertTableUITests.m */,
+				3B916A1A20561F4700D84A10 /* Info.plist */,
+			);
+			path = threeTiertTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B9169F020561F4700D84A10 /* threeTiertTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B916A1D20561F4700D84A10 /* Build configuration list for PBXNativeTarget "threeTiertTable" */;
+			buildPhases = (
+				3B9169ED20561F4700D84A10 /* Sources */,
+				3B9169EE20561F4700D84A10 /* Frameworks */,
+				3B9169EF20561F4700D84A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = threeTiertTable;
+			productName = threeTiertTable;
+			productReference = 3B9169F120561F4700D84A10 /* threeTiertTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B916A0820561F4700D84A10 /* threeTiertTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B916A2020561F4700D84A10 /* Build configuration list for PBXNativeTarget "threeTiertTableTests" */;
+			buildPhases = (
+				3B916A0520561F4700D84A10 /* Sources */,
+				3B916A0620561F4700D84A10 /* Frameworks */,
+				3B916A0720561F4700D84A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B916A0B20561F4700D84A10 /* PBXTargetDependency */,
+			);
+			name = threeTiertTableTests;
+			productName = threeTiertTableTests;
+			productReference = 3B916A0920561F4700D84A10 /* threeTiertTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B916A1320561F4700D84A10 /* threeTiertTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B916A2320561F4700D84A10 /* Build configuration list for PBXNativeTarget "threeTiertTableUITests" */;
+			buildPhases = (
+				3B916A1020561F4700D84A10 /* Sources */,
+				3B916A1120561F4700D84A10 /* Frameworks */,
+				3B916A1220561F4700D84A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B916A1620561F4700D84A10 /* PBXTargetDependency */,
+			);
+			name = threeTiertTableUITests;
+			productName = threeTiertTableUITests;
+			productReference = 3B916A1420561F4700D84A10 /* threeTiertTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B9169E920561F4700D84A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = kim;
+				TargetAttributes = {
+					3B9169F020561F4700D84A10 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3B916A0820561F4700D84A10 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B9169F020561F4700D84A10;
+					};
+					3B916A1320561F4700D84A10 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B9169F020561F4700D84A10;
+					};
+				};
+			};
+			buildConfigurationList = 3B9169EC20561F4700D84A10 /* Build configuration list for PBXProject "threeTiertTable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B9169E820561F4700D84A10;
+			productRefGroup = 3B9169F220561F4700D84A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B9169F020561F4700D84A10 /* threeTiertTable */,
+				3B916A0820561F4700D84A10 /* threeTiertTableTests */,
+				3B916A1320561F4700D84A10 /* threeTiertTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B9169EF20561F4700D84A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B916A0120561F4700D84A10 /* LaunchScreen.storyboard in Resources */,
+				3B9169FE20561F4700D84A10 /* Assets.xcassets in Resources */,
+				3B9169FC20561F4700D84A10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B916A0720561F4700D84A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B916A1220561F4700D84A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B9169ED20561F4700D84A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9169F920561F4700D84A10 /* ViewController.m in Sources */,
+				3B916A0420561F4700D84A10 /* main.m in Sources */,
+				3B9169F620561F4700D84A10 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B916A0520561F4700D84A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B916A0E20561F4700D84A10 /* threeTiertTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B916A1020561F4700D84A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B916A1920561F4700D84A10 /* threeTiertTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B916A0B20561F4700D84A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B9169F020561F4700D84A10 /* threeTiertTable */;
+			targetProxy = 3B916A0A20561F4700D84A10 /* PBXContainerItemProxy */;
+		};
+		3B916A1620561F4700D84A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B9169F020561F4700D84A10 /* threeTiertTable */;
+			targetProxy = 3B916A1520561F4700D84A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B9169FA20561F4700D84A10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9169FB20561F4700D84A10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B9169FF20561F4700D84A10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B916A0020561F4700D84A10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B916A1B20561F4700D84A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B916A1C20561F4700D84A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B916A1E20561F4700D84A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UCU894HME;
+				INFOPLIST_FILE = threeTiertTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.threeTiertTable.threeTiertTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B916A1F20561F4700D84A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UCU894HME;
+				INFOPLIST_FILE = threeTiertTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.threeTiertTable.threeTiertTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B916A2120561F4700D84A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UCU894HME;
+				INFOPLIST_FILE = threeTiertTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.threeTiertTable.threeTiertTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/threeTiertTable.app/threeTiertTable";
+			};
+			name = Debug;
+		};
+		3B916A2220561F4700D84A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UCU894HME;
+				INFOPLIST_FILE = threeTiertTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.threeTiertTable.threeTiertTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/threeTiertTable.app/threeTiertTable";
+			};
+			name = Release;
+		};
+		3B916A2420561F4700D84A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UCU894HME;
+				INFOPLIST_FILE = threeTiertTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.threeTiertTable.threeTiertTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = threeTiertTable;
+			};
+			name = Debug;
+		};
+		3B916A2520561F4700D84A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UCU894HME;
+				INFOPLIST_FILE = threeTiertTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kim.threeTiertTable.threeTiertTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = threeTiertTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B9169EC20561F4700D84A10 /* Build configuration list for PBXProject "threeTiertTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B916A1B20561F4700D84A10 /* Debug */,
+				3B916A1C20561F4700D84A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B916A1D20561F4700D84A10 /* Build configuration list for PBXNativeTarget "threeTiertTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B916A1E20561F4700D84A10 /* Debug */,
+				3B916A1F20561F4700D84A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B916A2020561F4700D84A10 /* Build configuration list for PBXNativeTarget "threeTiertTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B916A2120561F4700D84A10 /* Debug */,
+				3B916A2220561F4700D84A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B916A2320561F4700D84A10 /* Build configuration list for PBXNativeTarget "threeTiertTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B916A2420561F4700D84A10 /* Debug */,
+				3B916A2520561F4700D84A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B9169E920561F4700D84A10 /* Project object */;
+}
