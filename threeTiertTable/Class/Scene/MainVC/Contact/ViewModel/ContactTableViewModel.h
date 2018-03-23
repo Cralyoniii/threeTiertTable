@@ -11,3 +11,14 @@
 
 
 #endif /* ContactTableViewModel_h */
+#import "ContactModel.h"
+@interface ContactTableViewModel : NSObject
+
+- (void)handleTableView:(UITableView *)table;
+
+//- (void)pushToVCwithSourceVC:(UIViewController *)sourceVC
+//                    withData:(id)data
+//                  withPushVC:(UIViewController *)pushVC;
+- (void)getContactDataWithModelArray:(NSMutableArray <ContactModel *>*(^)(void))modelArrayBlock
+                   completion:(void(^)(void))completion;
+@end

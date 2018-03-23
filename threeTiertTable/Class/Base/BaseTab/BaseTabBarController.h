@@ -11,3 +11,7 @@
 
 
 #endif /* BaseTabBarController_h */
+@interface BaseTabBarController : UITabBarController
+
+
+@end

@@ -6,13 +6,13 @@
 //  Copyright © 2018 kim. All rights reserved.
 //
 
-#import "ContactTVCell.h"
+#import "MainTVCell.h"
 
-@interface ContactTVCell()
+@interface MainTVCell()
 
 @end
 
-@implementation ContactTVCell
+@implementation MainTVCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if(self == [super initWithStyle:style reuseIdentifier:reuseIdentifier]){

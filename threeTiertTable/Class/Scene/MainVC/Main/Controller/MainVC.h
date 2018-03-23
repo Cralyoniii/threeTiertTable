@@ -11,3 +11,8 @@
 
 
 #endif /* MainVC_h */
+
+@interface MainVC : UIViewController
+
+
+@end

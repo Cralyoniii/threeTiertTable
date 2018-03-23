@@ -11,3 +11,9 @@
 
 
 #endif /* ContactTVNameCell_h */
+#import <UIKit/UIKit.h>
+@interface ContactTVNameCell : UITableViewCell
+
+@property(nonatomic, copy)NSString *nameStr;
+
+@end

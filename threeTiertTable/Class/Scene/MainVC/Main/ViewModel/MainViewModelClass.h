@@ -11,3 +11,16 @@
 
 
 #endif /* MainViewModelClass_h */
+@interface MainViewModelClass : NSObject
+
+@property (strong, nonatomic) returnValueBlock returnValueBlock;
+
+@property (strong, nonatomic) errorCodeBlock errorCodeBlock;
+
+@property (strong, nonatomic) failureBlock failureBlock;
+
+- (void)setBlockWithReturnValueBlock: (returnValueBlock) returnBlock
+                      WithErrorBlock: (errorCodeBlock) errorBlock
+                       WithFailBlock: (failureBlock) failureBlock;
+
+@end

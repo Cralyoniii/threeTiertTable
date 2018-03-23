@@ -11,3 +11,9 @@
 
 
 #endif /* MainViewModel_h */
+#import "MainViewModelClass.h"
+@interface MainViewModel : MainViewModelClass
+
+- (void)fetchMainTableViewDataWithMainViewController:(UIViewController *)VC;
+
+@end

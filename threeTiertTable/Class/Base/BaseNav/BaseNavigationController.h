@@ -11,3 +11,9 @@
 
 
 #endif /* BaseNavigationController_h */
+
+@interface BaseNavigationController : UINavigationController
+
+
+
+@end

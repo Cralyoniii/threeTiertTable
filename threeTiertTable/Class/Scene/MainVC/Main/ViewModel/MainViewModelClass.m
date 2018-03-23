@@ -6,4 +6,15 @@
 //  Copyright © 2018 kim. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MainViewModelClass.h"
+@implementation MainViewModelClass
+
+- (void)setBlockWithReturnValueBlock:(returnValueBlock)returnBlock
+                      WithErrorBlock:(errorCodeBlock)errorBlock
+                       WithFailBlock:(failureBlock)failureBlock{
+    _returnValueBlock = returnBlock;
+    _errorCodeBlock = errorBlock;
+    _failureBlock = failureBlock;
+}
+
+@end

@@ -11,3 +11,6 @@
 
 
 #endif /* AppClient_h */
+@interface AppClient : AFHTTPSessionManager
++ (instancetype)sharedClient;
+@end

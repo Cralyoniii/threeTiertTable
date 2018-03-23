@@ -11,3 +11,9 @@
 
 
 #endif /* ContactTVDetailCell_h */
+
+#import "ContactTVDetailCell.h"
+#import "ContactModel.h"
+@interface ContactTVDetailCell : UITableViewCell
+@property(nonatomic, copy)ContactModel *model;
+@end

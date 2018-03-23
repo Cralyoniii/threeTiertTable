@@ -11,3 +11,10 @@
 
 
 #endif /* ContactTableView_h */
+
+#import <UIKit/UIKit.h>
+@interface ContactTableView : UIViewController
+
+
+
+@end
